@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Blog preview card</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+  <!-- Tailwind CDN-->
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body class="bg-[hsl(47,88%,63%)] m-0 overflow-hidden">
+  <div class="h-screen flex justify-center items-center">
+    <div class="h-[485px] w-[356px] bg-white shadow-[10px_10px_black] rounded-[20px] border-2 border-solid border-[black]">
+        <div class="flex justify-center items-center my-5">
+          <img src="assets/images/illustration-article.svg" class="w-[90%] rounded-[20px]">
+        </div>
+        <button class="bg-[hsl(47,88%,63%)] text-[16px] font-semibold ml-5 mt-0 px-[10px] py-[1px] rounded-[5px] border-[none]">Learning</button>
+        <p class="text-[13px] text-[hsl(0,0%,7%)] mt-0 pl-5 pt-2.5">Published 21 Dec 2023</p>
+        <h2 class="text-2xl font-semibold text-[hsl(0,0%,7%)] my-0 pl-5 hover:text-[hsl(47,88%,63%)] hover:cursor-pointer">HTML & CSS foundations</h2>
+        <p class="text-base text-[hsl(0,0%,50%)] pt-[15px] pl-5 mb-3">These languages are the backbone of every website, defining structure, content, and presentation.</p>
+        <div class="flex h-[50px] items-center pl-5">
+          <img src="assets/images/image-avatar.webp" class="h-[35px]">
+          <div>
+            <p class="font-extrabold text-[13px] text-[hsl(0,0%,7%)] m-0 pl-2.5 pt-0">Greg Hooper</p>
+          </div>
+        </div>
+    </div>
+  </div>
+  
+  <div class="absolute bottom-2 left-[42%] text-[13px] font-semibold">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="https://github.com/lil-lovecraft">Lovecraft</a>.
+  </div>
+</body>
+</html>
